@@ -1,6 +1,6 @@
 [meta
 ]name=Example cards
-]description=This is an example file showing how the QASN Card format works.
+]description=This is an example file showing how the Plain Card Format works.
 
 [colors
 ]info=ff0000
@@ -28,11 +28,11 @@ until it hit's another special character on the next line.
  [tags[info
  =v
  Check marks.
- *As you can see to create a card you put = but you can put an "v" after to mark it as checked.
+ *As you can see to create a card you put = but you can put a "v" after to mark it as checked.
  [checkmarks[info
  =
  Markdown
  */
  You can use **markdown** in descriptions if you put "*/" and then a new line.
- I don't like markdown tough, but it supports it anyways!.
+ I don't like markdown tough, but it supports it anyways!
  [info[markdown
