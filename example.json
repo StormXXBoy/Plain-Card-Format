@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "name": "Example cards",
+    "description": "This is an example file showing how the QASN Card format works."
+  },
+  "colors": {
+    "info": "#ff0000",
+    "test": "#00ff00"
+  },
+  "cards": [
+    {
+      "title": "This is a test card.",
+      "checked": false,
+      "description": "This is a description\nand it can continue like this in multiple lines,\nuntil it hit's another special character on the next line.",
+      "tags": ["info", "test"],
+      "children": [
+        {
+          "title": "Nested cards",
+          "checked": false,
+          "description": "Nest cards have a space under the other card.\nKinda like python.",
+          "tags": ["nested", "info"],
+          "children": [
+            {
+              "title": "INFINITE NESTS",
+              "checked": false,
+              "description": "You can nest infinitly.",
+              "tags": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Tags",
+          "checked": false,
+          "description": "At the end of a card you can put text to add a tag to that card.\nYou can have multiple tags by appending another \"tag\" tag with spaces tag2",
+          "tags": ["tags", "info"],
+          "children": []
+        },
+        {
+          "title": "Check marks.",
+          "checked": true,
+          "description": "As you can see to create a card you put = but you can put an \"v\" after to mark it as checked.",
+          "tags": ["checkmarks", "info"],
+          "children": []
+        },
+        {
+          "title": "Markdown",
+          "checked": false,
+          "description": "You can use **markdown** in descriptions if you put \"*/\" and then a new line.\nI don't like markdown though, but it supports it anyways!",
+          "tags": ["info", "markdown"],
+          "children": []
+        }
+      ]
+    }
+  ]
+}
