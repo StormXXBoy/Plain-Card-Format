@@ -1,7 +1,7 @@
 <qasn>
   <meta>
     <name>Example cards</name>
-    <description>This is an example file showing how the QASN Card format works.</description>
+    <description>This is an example file showing how the Plain Card Format works.</description>
   </meta>
 
   <colors>
@@ -44,7 +44,7 @@
         <title>Tags</title>
         <description>
           At the end of a card you can put text to add a tag to that card.
-          You can have multiple tags by appending another "tag" tag with spaces tag2
+          You can have multiple tags by appending another "[tag" [tag[tag with spaces[tag2
         </description>
         <tags>
           <tag>tags</tag>
@@ -55,7 +55,7 @@
       <card checked="true">
         <title>Check marks.</title>
         <description>
-          As you can see to create a card you put = but you can put an "v" after to mark it as checked.
+          As you can see to create a card you put = but you can put a "v" after to mark it as checked.
         </description>
         <tags>
           <tag>checkmarks</tag>
