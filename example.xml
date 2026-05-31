@@ -1,0 +1,80 @@
+<qasn>
+  <meta>
+    <name>Example cards</name>
+    <description>This is an example file showing how the QASN Card format works.</description>
+  </meta>
+
+  <colors>
+    <color name="info">#ff0000</color>
+    <color name="test">#00ff00</color>
+  </colors>
+
+  <cards>
+    <card checked="false">
+      <title>This is a test card.</title>
+      <description>
+        This is a description
+        and it can continue like this in multiple lines,
+        until it hit's another special character on the next line.
+      </description>
+      <tags>
+        <tag>info</tag>
+        <tag>test</tag>
+      </tags>
+
+      <card>
+        <title>Nested cards</title>
+        <description>
+          Nest cards have a space under the other card.
+          Kinda like python.
+        </description>
+        <tags>
+          <tag>nested</tag>
+          <tag>info</tag>
+        </tags>
+
+        <card>
+          <title>INFINITE NESTS</title>
+          <description>You can nest infinitly.</description>
+          <tags/>
+        </card>
+      </card>
+
+      <card>
+        <title>Tags</title>
+        <description>
+          At the end of a card you can put text to add a tag to that card.
+          You can have multiple tags by appending another "tag" tag with spaces tag2
+        </description>
+        <tags>
+          <tag>tags</tag>
+          <tag>info</tag>
+        </tags>
+      </card>
+
+      <card checked="true">
+        <title>Check marks.</title>
+        <description>
+          As you can see to create a card you put = but you can put an "v" after to mark it as checked.
+        </description>
+        <tags>
+          <tag>checkmarks</tag>
+          <tag>info</tag>
+        </tags>
+      </card>
+
+      <card>
+        <title>Markdown</title>
+        <description>
+          You can use **markdown** in descriptions if you put "*/" and then a new line.
+          I don't like markdown though, but it supports it anyways!
+        </description>
+        <tags>
+          <tag>info</tag>
+          <tag>markdown</tag>
+        </tags>
+      </card>
+
+    </card>
+  </cards>
+</qasn>
