@@ -3,8 +3,8 @@
 ]description=This is an example file showing how the Plain Card Format works.
 
 [colors
-]info=ff0000
-]test=00ff00
+]info=#ff0000
+]test=#00ff00
 
 [cards
 =
