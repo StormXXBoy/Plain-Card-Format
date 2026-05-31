@@ -1,0 +1,38 @@
+[meta
+]name=Example cards
+]description=This is an example file showing how the QASN Card format works.
+
+[colors
+]info=ff0000
+]test=00ff00
+
+[cards
+=
+This is a test card.
+*This is a description
+and it can continue like this in multiple lines,
+until it hit's another special character on the next line.
+[info[test
+ =
+ Nested cards
+ *Nest cards have a space under the other card.
+ Kinda like python.
+ [nested[info
+  =
+  INFINITE NESTS
+  *You can nest infinitly.
+ =
+ Tags
+ *At the end of a card you can put [text to add a tag to that card.
+ You can have multiple tags by appending another "[tag" [tag[tag with spaces[tag2
+ [tags[info
+ =v
+ Check marks.
+ *As you can see to create a card you put = but you can put an "v" after to mark it as checked.
+ [checkmarks[info
+ =
+ Markdown
+ */
+ You can use **markdown** in descriptions if you put "*/" and then a new line.
+ I don't like markdown tough, but it supports it anyways!.
+ [info[markdown
